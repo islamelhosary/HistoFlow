@@ -1,0 +1,26 @@
+# MODEL DEPENDENCIES
+flamingo-pytorch
+git+https://github.com/islamelhosary/HistoGPT.git@islamelhosary-patch-1
+openslide-python
+transformers==4.37.2
+opencv-python
+h5py
+torchvision
+matplotlib
+
+#PIPELINE DEPENDENCIES
+dagster>=1.0.0
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+redis>=4.5.0
+pytest>=7.0.0
+httpx>=0.24.0
+python-json-logger>=2.0.0
+requests>=2.28.0
+tqdm>=4.65.0  # For progress tracking
+python-multipart>=0.0.5  # For handling file uploads 
